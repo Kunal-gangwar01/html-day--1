@@ -1,0 +1,43 @@
+ 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form</h1>
+
+    <form action="./content.html">
+         <label>Name:</label><br>
+        <input type="text" placeholder="please type nmae"><br><br>
+        <label>Age:</label><br>
+        <input type="number" placeholder="please type age"><br><br>
+        <label>Password:</label><br>
+        <input type="password" placeholder="please enter password"><br><br>
+        <label>Email:</label><br>
+        <input type="email" placeholder="please type email" required><br><br>
+        
+        <label>Hobbies:</label><br>
+        <input type="checkbox" name="Hobbies" id="cricket" value="cricket"><label for="cricket">Cricket</label><br><br>
+        <input type="checkbox" name="Hobbies" id="football" value="football"><label for="football">Football</label><br><br>
+        <input type="checkbox" name="Hobbies" id="volleyball" value="volleyball"><label for="volleyball">Volleyball</label><br><br>
+
+        <label>Gender:</label><br> 
+        <input type="radio" name="gender" id="g-male" value="male"><label for="g-male">Male</label><br><br>
+        <input type="radio" name="gender" id="g-female" value="female"><label for="g-female">Female</label><br><br>
+
+        <label for="select city">City:</label>
+        <select name="city" id="city">
+            <option value="delhi">Delhi</option>
+            <option value="ghaziabad">Ghaziabad</option>
+            <option value="Noida">Noida</option>
+        </select><br><br>
+
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
